@@ -1,0 +1,33 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinymin/todoListApi.git"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "suncheol kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinymin/todoListApi/issues"
+  },
+  "homepage": "https://github.com/tinymin/todoListApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.9",
+    "mysql": "^2.14.1"
+  },
+  "start": "nodemon server.js"
+}
